@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BigImageEntityHolder" representedClassName="BigImageEntityHolder" syncable="YES">
+        <attribute name="bigImage" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" storedInTruthFile="YES"/>
+    </entity>
+    <entity name="BigJsonKeyValue" representedClassName="BigJsonKeyValue" syncable="YES">
+        <attribute name="key" optional="YES" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="BigImageEntityHolder" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="BigJsonKeyValue" positionX="-63" positionY="-9" width="128" height="73"/>
+    </elements>
 </model>
